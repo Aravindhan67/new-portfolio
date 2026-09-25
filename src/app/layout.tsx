@@ -8,7 +8,7 @@ import Footer from "@/components/layout/Footer";
 import CustomCursor from "@/components/layout/CustomCursor";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { GoogleAnalytics } from "G-FXMPBKL7LB";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const fontSans = Outfit({
   variable: "--font-sans",
@@ -144,7 +144,7 @@ export default function RootLayout({
         <Analytics />
         <SpeedInsights />
       </body>
-      <GoogleAnalytics gaId="G-XXXXXXXXXX" />
+      <GoogleAnalytics gaId="G-FXMPBKL7LB" />
     </html>
   );
 }
