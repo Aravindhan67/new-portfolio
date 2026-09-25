@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-sans), "Outfit", sans-serif;
+  --font-mono: var(--font-mono), "JetBrains Mono", monospace;
+  
+  --color-background: #F8F6F0;
+  --color-foreground: #2A2826;
+  
+  --color-primary: #2A2826;
+  --color-primary-foreground: #F8F6F0;
+  
+  --color-secondary: #8B8580;
+  
+  --color-accent: #E05D36; /* Vibrant Terracotta */
+  --color-accent-secondary: #C84620; /* Darker Terracotta */
+  --color-accent-foreground: #ffffff;
+  
+  --color-border: #E8E5DF;
+}
+
+@layer base {
+  :root {
+    --background: #F8F6F0;
+    --foreground: #2A2826;
+  }
+  
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: var(--color-accent);
+    color: #ffffff;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .glass-panel {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-secondary) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
