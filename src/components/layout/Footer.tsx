@@ -53,40 +53,6 @@ export default function Footer() {
             </div>
             <span>© {currentYear} ALL RIGHTS RESERVED</span>
           </div>
-          
-          {/* Unique Typography Pattern */}
-          <div className="w-full relative flex justify-center py-8 md:py-16 overflow-hidden group cursor-default mt-8">
-            
-            {/* Top Outer Layer */}
-            <h1 className="absolute text-[13vw] md:text-[11vw] font-bold tracking-tighter uppercase text-transparent transition-all duration-700 ease-[0.19,1,0.22,1] opacity-0 group-hover:opacity-20 group-hover:-translate-y-12 md:group-hover:-translate-y-20 select-none" 
-                style={{ WebkitTextStroke: '1px var(--color-accent)' }}>
-              ARAVINDHAN
-            </h1>
-            
-            {/* Top Inner Layer */}
-            <h1 className="absolute text-[13vw] md:text-[11vw] font-bold tracking-tighter uppercase text-transparent transition-all duration-700 ease-[0.19,1,0.22,1] opacity-0 group-hover:opacity-50 group-hover:-translate-y-6 md:group-hover:-translate-y-10 select-none" 
-                style={{ WebkitTextStroke: '1px var(--color-accent)' }}>
-              ARAVINDHAN
-            </h1>
-            
-            {/* Main Center Layer */}
-            <h1 className="relative text-[13vw] md:text-[11vw] font-bold tracking-tighter uppercase bg-clip-text text-transparent bg-gradient-to-b from-[#F8F6F0] to-[#8B8580] group-hover:to-accent transition-all duration-700 ease-[0.19,1,0.22,1] select-none z-10 scale-100 group-hover:scale-105">
-              ARAVINDHAN
-            </h1>
-            
-            {/* Bottom Inner Layer */}
-            <h1 className="absolute text-[13vw] md:text-[11vw] font-bold tracking-tighter uppercase text-transparent transition-all duration-700 ease-[0.19,1,0.22,1] opacity-0 group-hover:opacity-50 group-hover:translate-y-6 md:group-hover:translate-y-10 select-none" 
-                style={{ WebkitTextStroke: '1px var(--color-accent)' }}>
-              ARAVINDHAN
-            </h1>
-            
-            {/* Bottom Outer Layer */}
-            <h1 className="absolute text-[13vw] md:text-[11vw] font-bold tracking-tighter uppercase text-transparent transition-all duration-700 ease-[0.19,1,0.22,1] opacity-0 group-hover:opacity-20 group-hover:translate-y-12 md:group-hover:translate-y-20 select-none" 
-                style={{ WebkitTextStroke: '1px var(--color-accent)' }}>
-              ARAVINDHAN
-            </h1>
-
-          </div>
         </div>
 
       </div>
